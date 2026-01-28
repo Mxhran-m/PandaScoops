@@ -3,9 +3,9 @@ import { Link } from "react-router-dom"
 
 export default function Footer() {
   return (
-    <footer className="lg:grid lg:grid-cols-5">
+    <footer className="lg:grid lg:grid-cols-5 text-white/80">
       <div className="relative block h-32 lg:col-span-2 lg:h-full">
-        <img src="/pandaMenuImage.webp" alt="Panda Scoops" className="md:p-4 absolute inset-0 h-full w-full object-cover" />
+        <img src="/scoop.webp" alt="Panda Scoops" className="md:p-4 absolute inset-0 h-full w-full object-cover" />
       </div>
 
       <div className="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
