@@ -95,7 +95,7 @@ const MainSlider = () => {
                 color: currentTheme.text,
               }}
             >
-              World of Waffles
+              Panda Scoops
             </h1>
             {/* <p
               className="text-xs md:text-sm opacity-70"
@@ -122,6 +122,7 @@ const MainSlider = () => {
             data-testid="active-product-indicator"
           >
             <Link to="/">Home</Link>
+            <Link to="/menu">Menu</Link>
             <Link to="/about">About</Link>
             <Link to="/gallery">Gallery</Link>
             <Link to="/contact">Contact</Link>
@@ -130,7 +131,7 @@ const MainSlider = () => {
           {/* Social Media Icons - Filled */}
           <div className="flex items-center gap-3 hidden md:flex">
             <a
-              href="https://instagram.com/worldofwaffles"
+              href="https://instagram.com/pandascoops"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:scale-110 transition-transform backdrop-blur-xl bg-white/10 border border-white/20"
@@ -148,7 +149,7 @@ const MainSlider = () => {
               </svg>
             </a>
             <a
-              href="https://facebook.com/worldofwaffles"
+              href="https://facebook.com/pandascoops"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:scale-110 transition-transform backdrop-blur-xl bg-white/10 border border-white/20"
@@ -166,7 +167,7 @@ const MainSlider = () => {
               </svg>
             </a>
             <a
-              href="https://youtube.com/@worldofwaffles"
+              href="https://youtube.com/@pandascoops"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:scale-110 transition-transform backdrop-blur-xl bg-white/10 border border-white/20"
@@ -184,7 +185,7 @@ const MainSlider = () => {
               </svg>
             </a>
             <a
-              href="https://maps.google.com/?q=World+of+Waffles+Marathahalli"
+              href="https://maps.google.com/?q=Panda+Scoops"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:scale-110 transition-transform backdrop-blur-xl bg-white/10 border border-white/20"
@@ -231,6 +232,14 @@ const MainSlider = () => {
                 Home
               </Link>
               <Link
+                to="/menu"
+                onClick={() => setIsMenuOpen(false)}
+                className="text-lg font-medium"
+                style={{ color: currentTheme.text }}
+              >
+                Menu
+              </Link>
+              <Link
                 to="/about"
                 onClick={() => setIsMenuOpen(false)}
                 className="text-lg font-medium"
@@ -258,7 +267,7 @@ const MainSlider = () => {
 
             <div className="flex items-center gap-3 mb-8">
               <a
-                href="https://instagram.com/worldofwaffles"
+                href="https://instagram.com/pandascoops"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full hover:scale-110 transition-transform backdrop-blur-xl bg-white/10 border border-white/20"
@@ -276,7 +285,7 @@ const MainSlider = () => {
                 </svg>
               </a>
               <a
-                href="https://facebook.com/worldofwaffles"
+                href="https://facebook.com/pandascoops"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full hover:scale-110 transition-transform backdrop-blur-xl bg-white/10 border border-white/20"
@@ -294,7 +303,7 @@ const MainSlider = () => {
                 </svg>
               </a>
               <a
-                href="https://youtube.com/@worldofwaffles"
+                href="https://youtube.com/@pandascoops"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full hover:scale-110 transition-transform backdrop-blur-xl bg-white/10 border border-white/20"
@@ -312,7 +321,7 @@ const MainSlider = () => {
                 </svg>
               </a>
               <a
-                href="https://maps.google.com/?q=World+of+Waffles+Marathahalli"
+                href="https://maps.google.com/?q=Panda+Scoops"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full hover:scale-110 transition-transform backdrop-blur-xl bg-white/10 border border-white/20"

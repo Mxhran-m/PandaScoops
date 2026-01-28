@@ -5,15 +5,17 @@ import MainSlider from "./components/MainSlider";
 import About from "./pages/About";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
+import Menu from "./pages/Menu";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./lib/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
-    <ScrollToTop/>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<MainSlider />} />
+        <Route path="/menu" element={<Menu />} />
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />

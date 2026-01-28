@@ -28,25 +28,25 @@ const ContactSection = ({ theme }) => {
     {
       icon: <Instagram size={24} />,
       name: "Instagram",
-      link: "https://instagram.com/worldofwaffles",
+      link: "https://instagram.com/pandascoops",
       testId: "social-instagram"
     },
     {
       icon: <Facebook size={24} />,
       name: "Facebook",
-      link: "https://facebook.com/worldofwaffles",
+      link: "https://facebook.com/pandascoops",
       testId: "social-facebook"
     },
     {
       icon: <Youtube size={24} />,
       name: "Youtube",
-      link: "https://youtube.com/worldofwaffles",
+      link: "https://youtube.com/pandascoops",
       testId: "social-youtube"
     },
     // {
     //   icon: <Google size={24} />,
     //   name: "Google",
-    //   link: "https://google.com/worldofwaffles",
+    //   link: "https://google.com/pandascoops",
     //   testId: "social-google"
     // }
   ];
@@ -194,7 +194,7 @@ const ContactSection = ({ theme }) => {
             Follow Us:
           </p>
           <a
-            href="https://instagram.com/worldofwaffles"
+            href="https://instagram.com/pandascoops"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full hover:scale-110 transition-transform backdrop-blur-xl bg-white/10 border border-white/20"
@@ -207,7 +207,7 @@ const ContactSection = ({ theme }) => {
             </svg>
           </a>
           <a
-            href="https://facebook.com/worldofwaffles"
+            href="https://facebook.com/pandascoops"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full hover:scale-110 transition-transform backdrop-blur-xl bg-white/10 border border-white/20"
@@ -220,7 +220,7 @@ const ContactSection = ({ theme }) => {
             </svg>
           </a>
           <a
-            href="https://youtube.com/@worldofwaffles"
+            href="https://youtube.com/@pandascoops"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full hover:scale-110 transition-transform backdrop-blur-xl bg-white/10 border border-white/20"
@@ -233,7 +233,7 @@ const ContactSection = ({ theme }) => {
             </svg>
           </a>
           <a
-            href="https://maps.google.com/?q=World+of+Waffles+Marathahalli"
+            href="https://maps.google.com/?q=Panda+Scoops"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full hover:scale-110 transition-transform backdrop-blur-xl bg-white/10 border border-white/20"
@@ -256,7 +256,7 @@ const ContactSection = ({ theme }) => {
           transition={{ delay: 0.6 }}
           data-testid="footer-text"
         >
-          © 2026 World of Waffles - Marathahalli. Crafted with love by <a href="https://www.mrtechservices.com/">MR Tech Services</a>.
+          © 2026 Panda Scoops. Crafted with love by <a href="https://www.mrtechservices.com/">MR Tech Services</a>.
         </motion.p>
       </div>
     </motion.div>
