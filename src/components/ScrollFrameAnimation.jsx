@@ -147,7 +147,7 @@ const ScrollFrameAnimation = ({ productId, frameConfig, theme, onScrollProgress 
       className="relative w-full"
       style={{ height: '300vh' }}
     >
-      <div className="sticky top-20 md:top-32 lg:top-36 left-0 w-full flex items-center justify-center px-4 md:px-8 lg:px-12 pt-0 md:pt-6">
+      <div className="sticky top-44 md:top-32 lg:top-36 left-0 w-full flex items-center justify-center px-4 md:px-8 lg:px-12 pt-0 md:pt-6">
         <motion.div
           className="relative w-full max-w-7xl rounded-2xl md:rounded-3xl overflow-hidden aspect-[4/5] md:aspect-[16/8]"
           style={{

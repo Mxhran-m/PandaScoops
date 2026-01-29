@@ -102,11 +102,11 @@ const Menu = () => {
             {/* Header */}
             <header className="fixed top-0 left-0 right-0 z-50 bg-[#164e63]/80 backdrop-blur-md border-b border-[#ecfeff]/10 px-6 py-4">
                 <div className="max-w-7xl mx-auto flex items-center justify-between">
-                    <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-                        <ChevronLeft className="w-6 h-6" />
-                        <span className="font-semibold text-lg">Back to Home</span>
+                    <Link to="/" className="flex items-center bg-[#ecfeff]/10 py-2 px-2 rounded-full hover:opacity-80 transition-opacity">
+                        <ChevronLeft className="w-4 h-4" />
+                        <span className="font-semibold md:text-lg text-sm">Back to Home</span>
                     </Link>
-                    <h1 className="text-2xl font-bold tracking-tight italic" style={{ fontFamily: "'Fraunces', serif" }}>
+                    <h1 className="md:text-2xl text-xl font-bold tracking-tight italic" style={{ fontFamily: "'Fraunces', serif" }}>
                         Panda Scoops Menu
                     </h1>
                     <div className="w-24 hidden md:block"></div>
@@ -175,7 +175,7 @@ const Menu = () => {
 
             {/* Extras & Info */}
             <section className="max-w-7xl mx-auto px-6 mt-16">
-                <div className="bg-[#451a03] rounded-3xl p-8 border border-amber-500/20 flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl">
+                <div className="bg-[#6b253d] rounded-3xl p-8 border border-amber-500/20 flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl">
                     <div className="flex items-center gap-6">
                         <div className="bg-amber-500 p-4 rounded-full">
                             <Utensils className="w-8 h-8 text-[#451a03]" />

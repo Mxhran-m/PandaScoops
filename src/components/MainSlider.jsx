@@ -80,10 +80,13 @@ const MainSlider = () => {
 
       {/* Header */}
       <motion.header
-        className="fixed top-0 left-0 right-0 z-50 px-6 md:px-12 py-3 md:py-6 "
+        className="fixed top-0 left-0 right-0 z-50 px-6 md:px-12 py-3 "
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5 }}
+        style={{
+          backgroundColor: currentTheme.background,
+        }}
       >
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -351,7 +354,7 @@ const MainSlider = () => {
         )}
 
         {/* Navigation Tabs - Separate Row */}
-        <div className="flex justify-center mt-2 md:mt-6">
+        <div className="flex justify-center mt-2 md:mt-4">
           <div className="relative w-full max-w-full md:max-w-fit mx-auto">
             {/* Scroll Container */}
             <div className="overflow-x-auto scrollbar-hide -mx-6 px-6 md:mx-0 md:px-0 flex justify-start md:justify-center mobile-scroll-mask">

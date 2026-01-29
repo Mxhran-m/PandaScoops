@@ -16,7 +16,7 @@ const HeroSection = ({ product, theme }) => {
   return (
     <div className="relative w-full">
       {/* Animation Container */}
-      <div className="relative w-full mt-28 md:mt-32 lg:mt-36">
+      <div className="relative w-full mt-24 md:mt-32 lg:mt-36">
         <ScrollFrameAnimation
           productId={product.id}
           frameConfig={product.frameConfig}
@@ -24,9 +24,9 @@ const HeroSection = ({ product, theme }) => {
           onScrollProgress={setScrollProgress}
         />
 
-        <div className="absolute top-0 left-0 right-0 w-full pointer-events-none h-[80dvh]">
-          <div className="w-full h-full flex items-center justify-center px-4 md:px-8 lg:px-12 pb-32 md:pb-0">
-            <div className="relative w-full max-w-7xl mx-auto aspect-[4/5] md:aspect-[16/8]">
+        <div className="absolute top-0 left-0 right-0 w-full pointer-events-none h-[75dvh] md:h-[80dvh]">
+          <div className="w-full h-full flex items-center justify-center px-4 md:px-8 lg:px-12 pb-16 md:pb-0">
+            <div className="relative w-full max-w-7xl mx-auto aspect-[3/4] xs:aspect-[4/5] md:aspect-[16/8]">
               <AnimatePresence>
                 {showContent && (
                   <motion.div
@@ -39,7 +39,7 @@ const HeroSection = ({ product, theme }) => {
                     <div className="w-full text-center px-4 md:px-8 lg:px-12">
                       {/* Floating Magic Text */}
                       <motion.div
-                        className="mb-10"
+                        className="mb-6 md:mb-10"
                         initial={{ opacity: 0, y: 10 }}
                         animate={{
                           opacity: 1,
@@ -58,14 +58,14 @@ const HeroSection = ({ product, theme }) => {
                             textShadow: "0 0 10px rgba(255,255,255,0.3)"
                           }}
                         >
-                          Scroll to see magic ✨
+                          Scroll to see magic
                         </p>
                       </motion.div>
 
                       {/* Badge */}
                       {product.badge && (
                         <motion.div
-                          className="inline-block mb-3 md:mb-4"
+                          className="inline-block md:mb-4"
                           initial={{ scale: 0.8, opacity: 0 }}
                           animate={{ scale: 1, opacity: 1 }}
                           exit={{ scale: 0.8, opacity: 0 }}
@@ -86,7 +86,7 @@ const HeroSection = ({ product, theme }) => {
 
                       {/* Product Name */}
                       <motion.h1
-                        className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black tracking-tighter leading-none mb-2 md:mb-3"
+                        className="text-6xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black tracking-tighter leading-tight md:leading-none mb-4 md:mb-3"
                         style={{
                           fontFamily: "'Fraunces', serif",
                           color: theme.text,
@@ -103,7 +103,7 @@ const HeroSection = ({ product, theme }) => {
 
                       {/* Tagline */}
                       <motion.p
-                        className="text-base sm:text-lg md:text-xl lg:text-2xl mb-4 md:mb-6 opacity-90"
+                        className="text-sm sm:text-lg md:text-xl lg:text-2xl mb-8 md:mb-10 opacity-90"
                         style={{
                           fontFamily: "'Fraunces', serif",
                           color: theme.text
@@ -141,7 +141,7 @@ const HeroSection = ({ product, theme }) => {
                       {/* CTA Button */}
                       <motion.button
                         onClick={handleOrderClick}
-                        className="px-6 py-3 md:px-8 md:py-4 rounded-full text-sm md:text-base lg:text-lg font-bold shadow-2xl hover:scale-105 transition-transform duration-300"
+                        className="px-5 py-2.5 md:px-8 md:py-4 rounded-full text-xs sm:text-base lg:text-lg font-bold shadow-2xl hover:scale-105 transition-transform duration-300"
                         style={{
                           backgroundColor: theme.button_bg,
                           color: theme.button_text,

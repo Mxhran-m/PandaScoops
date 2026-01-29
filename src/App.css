@@ -59,6 +59,12 @@ a {
   user-select: none;
 }
 
+.input {
+  @apply w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20
+  text-white placeholder-white/50 focus:outline-none
+  focus:ring-2 focus:ring-amber-500/50;
+}
+
 /* Smooth transitions for theme changes */
 .theme-transition {
   transition: background-color 0.7s cubic-bezier(0.16, 1, 0.3, 1),

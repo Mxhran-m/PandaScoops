@@ -1,6 +1,6 @@
 export const productData = [
   {
-    id: "ice-creams-classic",
+    id: "ice-creams",
     name: "Classic Scoops",
     tabName: "Classic",
     tagline: "Timeless Flavors, Infinite Joy",
@@ -77,7 +77,7 @@ export const productData = [
     orderFeatures: ["Fast Delivery", "Nature Friendly Packaging", "Safe & Hygienic"]
   },
   {
-    id: "ice-creams-premium",
+    id: "classic-waffles",
     name: "Premium Delights",
     tabName: "Premium",
     tagline: "An Elevated Experience",
@@ -89,9 +89,9 @@ export const productData = [
     cta: "Try Premium",
     image: "https://images.unsplash.com/photo-1551024506-0bccd828d307?q=80&w=1600&auto=format&fit=crop",
     frameConfig: {
-      frameCount: 71,
-      prefix: "icecream-upscaled",
-      folder: "ice-creams"
+      frameCount: 81,
+      prefix: "waffle-upscaled",
+      folder: "classic-waffles"
     },
     theme: {
       background: "#451a03", // Deep Brown
@@ -154,7 +154,7 @@ export const productData = [
     orderFeatures: ["Premium Packaging", "Temperature Controlled", "Perfect Gift"]
   },
   {
-    id: "ice-creams-sundaes",
+    id: "waffle-sandwich",
     name: "House of Indulgence",
     tabName: "Sundaes",
     tagline: "More Than Just a Scoop",
@@ -166,9 +166,9 @@ export const productData = [
     cta: "View Sundaes",
     image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=1600&auto=format&fit=crop",
     frameConfig: {
-      frameCount: 71,
-      prefix: "icecream-upscaled",
-      folder: "ice-creams"
+      frameCount: 48,
+      prefix: "waffle-sandwich-upscaled",
+      folder: "waffle-sandwich"
     },
     theme: {
       background: "#0c4a6e", // Deep Sky Blue
@@ -231,9 +231,9 @@ export const productData = [
     orderFeatures: ["Spill-Proof Bowls", "Separate Toppings", "Perfectly Chilled"]
   },
   {
-    id: "ice-creams-shakes",
-    name: "Creamy Milkshakes",
-    tabName: "Shakes",
+    id: "french-fries",
+    name: "French Fries",
+    tabName: "Fries",
     tagline: "Sip Your Way to Happiness",
     headline: "Thick & Luscious.",
     description: "Our milkshakes are blended with generous scoops of ice cream for that perfect thick consistency you crave.",
@@ -243,9 +243,9 @@ export const productData = [
     cta: "Chose a Shake",
     image: "https://images.unsplash.com/photo-1579954115545-a95591f28bee?q=80&w=1600&auto=format&fit=crop",
     frameConfig: {
-      frameCount: 71,
-      prefix: "icecream-upscaled",
-      folder: "ice-creams"
+      frameCount: 50,
+      prefix: "french fries-upscaled",
+      folder: "french-fries"
     },
     theme: {
       background: "#78350f", // Warm Brown
